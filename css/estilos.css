@@ -1,6 +1,20 @@
+body{
+	background-image: url("Fundo.jpeg");
+	background-position: center;
+	background-color: #cccccc;
+	background-repeat: no-repeat;
+}
 .box{
+	border-radius: 5px;
+	width: 25%;
+	position: relative;
+	left: 36%;
 	text-align: center;
 	font-family: arial;
+	background: white;
+	padding: 20px;
+	background-clip: padding-box;
+
 }
 .marg{
 	margin-top: 15%;
@@ -12,4 +26,9 @@ button{
 	background-color: #008CBA;
 	color: white;
 	padding: 15px 32px;
+	font-size: 15px;
+	cursor: pointer;
+}
+button:hover{
+	opacity: 1;
 }

@@ -1,22 +1,26 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<!--Hover não foi adicionado no css pois no meu navegador essa função não funciona fora de um <!DOCTYPE> -->
+	<style type="text/css">
+		button:hover{
+			background-color: #007CBA;
+		}
+	</style>
 	<link rel="stylesheet" type="text/css" href="css/estilos.css">
-	<title>
-	</title>
 </head>
 <body>
 <div class="marg">
 	<div class="box">
-		<h2>Entrar</h2>
+		<h2>E-Mail</h2>
 		Login
 		</br>
-		<input type="text" id="inputlogin" placeholder="Usuário"></input>
+		<input type="text" id="inputlogin" placeholder="Usu&aacute;rio"></input>
 		</br>
 		</br>
 		Senha
 		</br>
-		<input type="text" id="inputsenha" placeholder="Senha"></input>
+		<input type="password" id="inputsenha" placeholder="Senha"></input>
 		</br>
 		</br>
 		<button id="butentrar">Entrar</button> 
