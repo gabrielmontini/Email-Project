@@ -1,0 +1,15 @@
+.box{
+	text-align: center;
+	font-family: arial;
+}
+.marg{
+	margin-top: 15%;
+}
+
+button{
+	border: none;
+	border-radius: 8px;
+	background-color: #008CBA;
+	color: white;
+	padding: 15px 32px;
+}
