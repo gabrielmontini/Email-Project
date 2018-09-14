@@ -1,9 +1,13 @@
+
+/*corpo*/
 body{
-	background-image: url("Fundo.jpeg");
+	background-image: url("../imagens/Fundo.jpeg");
 	background-position: center;
 	background-color: #cccccc;
 	background-repeat: no-repeat;
 }
+
+/*section login*/
 .box{
 	border-radius: 5px;
 	width: 25%;
@@ -13,12 +17,13 @@ body{
 	font-family: Arial;
 	background: white;
 	padding: 20px;
-
 }
+
 .marg{
 	margin-top: 15%;
 }
 
+/*botão*/
 button{
 	border: none;
 	border-radius: 8px;
@@ -26,10 +31,22 @@ button{
 	color: white;
 	padding: 15px 32px;
 	font-size: 15px;
-	cursor: pointer;
+    cursor: pointer;
+    margin-top:10px;
 }
+
+button:hover{
+    background-color: #007CBA ;
+}
+
+/*input*/
 input{
+    padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 10px;
+	padding-bottom: 10px;
 	border: solid 1px #CCC;
 	border-radius: 2px;
 	margin-top: 3px;
-	font-family: Arial;
+	font-family: "Arial";
+}

@@ -1,30 +1,31 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<!--Hover não foi adicionado no css pois no meu navegador essa função não funciona fora de um <!DOCTYPE> -->
-	<style type="text/css">
-		button:hover{
-			background-color: #007CBA;
-		}
-	</style>
-	<link rel="stylesheet" type="text/css" href="css/estilos.css">
-</head>
-<body>
-<div class="marg">
-	<div class="box">
-		<h2>E-Mail</h2>
-		Login
-		</br>
-		<input type="text" id="inputlogin" placeholder="Usu&aacute;rio"></input>
-		</br>
-		</br>
-		Senha
-		</br>
-		<input type="password" id="inputsenha" placeholder="Senha"></input>
-		</br>
-		</br>
-		<button id="butentrar">Entrar</button> 
-	</div>
-</div>
-</body>
+	<head>
+		<title> Login </title>
+		<link rel="stylesheet" type="text/css" href="css/index.css">
+	</head>
+	<body>
+
+		<section id="login" class="marg box">
+
+			<h2> E-Mail </h2>
+				
+					<div id = "input" >
+						
+						<a class="letra"> Login </a><br><input type="text" id="inputlogin" class="input" placeholder="Usu&aacute;rio"></input><br>
+						
+						
+						<a class="letra"> Senha </a><br><input type="password" id="inputsenha" class="input" placeholder="Senha"></input>
+						
+					</div>
+		
+					<div id="but">
+
+							<button id="butentrar"> Entrar </button> 
+
+					</div>
+		
+		</section>
+
+	</body>
 </html>
