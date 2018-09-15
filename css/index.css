@@ -1,44 +1,55 @@
-
 /*corpo*/
 body{
 	background-image: url("../imagens/Fundo.jpeg");
 	background-position: center;
 	background-color: #cccccc;
 	background-repeat: no-repeat;
-}
-
-/*section login*/
+}	
+/*login*/
 .box{
 	border-radius: 5px;
 	width: 25%;
 	position: relative;
 	left: 36%;
 	text-align: center;
-	font-family: Arial;
+	font-family: 'Cinzel Decorative';
 	background: white;
 	padding: 20px;
 }
-
 .marg{
-	margin-top: 15%;
+	margin-top: 10%;
 }
-
-/*botão*/
-button{
+/*botão de entrar*/
+.butentrar{
 	border: none;
 	border-radius: 8px;
 	background-color: #008CBA;
 	color: white;
 	padding: 15px 32px;
-	font-size: 15px;
+	font-size: 18px;
     cursor: pointer;
     margin-top:10px;
 }
-
-button:hover{
+.butentrar:hover{
     background-color: #007CBA ;
 }
-
+/*link styles*/
+.esqueci{
+	text-decoration: none;
+    color:#A52A2A;
+}
+.esqueci:hover {
+   	text-decoration: underline;
+   	color:#8B0000;
+	}
+.cadastrar{
+	text-decoration: none;
+    color:#008CBA;
+}
+.cadastrar:hover {
+   	text-decoration: underline;
+   	color:#007CBA;
+	}
 /*input*/
 input{
     padding-left: 20px;
@@ -49,4 +60,5 @@ input{
 	border-radius: 2px;
 	margin-top: 3px;
 	font-family: "Arial";
+	font-size: 18px;
 }
