@@ -1,0 +1,54 @@
+table{
+	border: none;
+}
+tr:first-child{
+	background-color: #3498db;
+
+}
+tr:nth-child(2){
+	background-color: lightgray;
+	height: 40px;
+
+}
+img{
+	width: 33px;
+	height: 30px;
+	vertical-align: middle;
+	padding-top: 3px;
+	padding-bottom: 3px;
+}
+input{
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	border: solid 1px #CCC;
+	border-radius: 5px;
+	vertical-align: middle;
+	font-family: Arial;
+	width: 20%;
+}
+table{
+	border: none;
+	border-collapse: collapse;
+}
+#nova{
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	background-color: transparent;
+	color: black;
+	border: none;
+	font-family: Arial;
+	margin-left: 8%;
+	cursor: pointer;
+}
+#nova:hover{
+	background-color: #aed6f1;
+}
+button{
+	background-color: transparent;
+	border: none;
+	cursor: pointer;
+}
