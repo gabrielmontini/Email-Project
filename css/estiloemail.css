@@ -1,19 +1,32 @@
-tr:first-child{
-	background-color: #3498db;
+#tablepesquisa tr:nth-child(2n+1){
+	background-color: #d6eaf8;
+	height: 25px;
+}
+#tablepesquisa tr:nth-child(2n){
+	background-color: #a3e4d7;
+	height: 25px;
+}
+#tablepesquisa tr:nth-child(2){
+	background-color: #f2f3f4;
 	height: 40px;
 
+}
+#tablepesquisa tr:first-child{
+	background-color: #5dade2;
+	height: 40px;
+
+}
+#tablepesquisa tr:nth-child(10){
+	height: 320px;
+	background-color: #f2f3f4;
 }
 tr:nth-child(2){
-	background-color: lightgray;
+	background-color: #f2f3f4;
 	height: 40px;
-
 }
-img{
-	width: 33px;
-	height: 30px;
-	vertical-align: middle;
-	padding-top: 3px;
-	padding-bottom: 3px;
+tr:first-child{
+	background-color: #5dade2;
+	height: 40px;
 }
 input{
 	padding-left: 10px;
@@ -24,7 +37,7 @@ input{
 	border-radius: 5px;
 	vertical-align: middle;
 	font-family: Arial;
-	width: 75%;
+	width: 70%;
 }
 table{
 	border: none;
@@ -40,7 +53,7 @@ table{
 	color: black;
 	border: none;
 	font-size: 13px;
-	
+	border-radius: 3px;
 }
 #nova:hover{
 	background-color: #aed6f1;
@@ -49,6 +62,14 @@ button{
 	background-color: transparent;
 	border: none;
 	cursor: pointer;
+}
+#botaomenu{
+	width: 33px;
+	height: 30px;
+	vertical-align: middle;
+	padding-top: 3px;
+	padding-bottom: 3px;
+
 }
 #tablepesquisa{
 	float: left; 
@@ -60,4 +81,16 @@ button{
 }
 b{
 	margin-left: 5%;
+}
+.imgbotao{
+	vertical-align: middle;
+	width: 20px;
+	height: 20px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-right: 10px;
+}
+.botao{
+	width: 100%;
+	text-align: left;
 }
