@@ -1,0 +1,102 @@
+#tablepesquisa tr:nth-child(2n+1){
+	background-color: #d6eaf8;
+	height: 25px;
+}
+#tablepesquisa tr:nth-child(2n){
+	background-color: #a3e4d7;
+	height: 25px;
+}
+#tablepesquisa tr:nth-child(2){
+	background-color: #f2f3f4;
+	height: 40px;
+
+}
+#tablepesquisa tr:first-child{
+	background-color: #5dade2;
+	height: 40px;
+
+}
+#tablepesquisa tr:nth-child(10){
+	height: 320px;
+	background-color: #f2f3f4;
+}
+tr:nth-child(2){
+	background-color: #f2f3f4;
+	height: 40px;
+}
+tr:first-child{
+	background-color: #5dade2;
+	height: 40px;
+}
+input{
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	border: solid 1px #CCC;
+	border-radius: 5px;
+	vertical-align: middle;
+	font-family: Arial;
+	width: 70%;
+}
+table{
+	border: none;
+	border-collapse: collapse;
+	font-family: Arial;
+}
+#nova{
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	background-color: transparent;
+	color: black;
+	border: none;
+	font-size: 13px;
+	border-radius: 3px;
+}
+#nova:hover{
+	background-color: #aed6f1;
+}
+button{
+	background-color: transparent;
+	border: none;
+	cursor: pointer;
+}
+#botaomenu{
+	width: 33px;
+	height: 30px;
+	vertical-align: middle;
+	padding-top: 3px;
+	padding-bottom: 3px;
+
+}
+#botaoenviar{
+	background-color: #aed6f1;
+	height: 40px;
+	width: 70px;
+	border-radius: 3px;
+}
+#tablepesquisa{
+	float: left; 
+	text-align: center;
+	width: 20%;
+}
+#tableemail{
+	width: 80%;
+}
+b{
+	margin-left: 5%;
+}
+.imgbotao{
+	vertical-align: middle;
+	width: 20px;
+	height: 20px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-right: 10px;
+}
+.botao{
+	width: 100%;
+	text-align: left;
+}
