@@ -14,3 +14,5 @@ $(document).ready(function(){
 		}
 	});
 });
+
+//Trocar conteúdo de senha para TXT//
