@@ -7,7 +7,7 @@ $(document).ready(function(){
 		if (login == "nome") {
 			if (senha == "1234") {
 			alert(logsenha);
-			window.location.href = ("paginas/email.html")
+			window.location.href = ("paginas/caixaEntrada.html")
 			}
 		} else {
 			alert("Nome de Usuário ou senha errado");

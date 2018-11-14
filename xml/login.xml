@@ -1,0 +1,12 @@
+<login>
+	<usuario>
+		<nome> Gabriel </nome>
+		<email> </email>
+		<senha> </senha>
+	</usuario>
+	<usuario>
+		<nome> Yasmin </nome>
+		<email> yasmin@hotmail.com </email>
+		<senha> 1234 </senha>
+	</usuario>
+</login>

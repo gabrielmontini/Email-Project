@@ -88,6 +88,10 @@ button{
 b{
 	margin-left: 5%;
 }
+a{
+	text-decoration: none;
+	color: black;
+}
 .imgbotao{
 	vertical-align: middle;
 	width: 20px;
