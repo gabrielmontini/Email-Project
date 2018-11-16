@@ -71,7 +71,7 @@ button{
 	padding-bottom: 3px;
 
 }
-#botaoenviar{
+#botaoEnviar{
 	background-color: #aed6f1;
 	height: 40px;
 	width: 70px;
@@ -103,4 +103,16 @@ a{
 .botao{
 	width: 100%;
 	text-align: left;
+}
+textarea{
+	border: none;
+	border-collapse: collapse;
+    box-sizing: border-box;
+    border-bottom: 1px solid #ccc;
+    border-top: 1px solid #ccc;
+    border-radius: 2px;
+    padding-top: 15px;
+    padding-left: 10px;
+    resize: none;
+    width: 100%;
 }

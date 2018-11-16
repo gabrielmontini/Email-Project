@@ -1,32 +1,22 @@
-#tablepesquisa tr:nth-child(2n+1){
-	background-color: #d6eaf8;
-	height: 25px;
-}
-#tablepesquisa tr:nth-child(2n){
-	background-color: #a3e4d7;
-	height: 25px;
-}
 #tablepesquisa tr:nth-child(2){
 	background-color: #f2f3f4;
 	height: 40px;
-
 }
 #tablepesquisa tr:first-child{
 	background-color: #5dade2;
 	height: 40px;
-
 }
-#tablepesquisa tr:nth-child(10){
+#tablepesquisa tr:nth-child(4){
 	height: 320px;
 	background-color: #f2f3f4;
 }
-tr:nth-child(2){
-	background-color: #f2f3f4;
-	height: 40px;
+#tablepesquisa td:first-child{
+	width: 20%
 }
-tr:first-child{
-	background-color: #5dade2;
-	height: 40px;
+#tableemail tr:nth-child(n){
+	background-color: white;
+	border-top: solid 1px #f2f3f4;
+	border-bottom: solid 1px #f2f3f4;
 }
 input{
 	padding-left: 10px;
@@ -43,6 +33,7 @@ table{
 	border: none;
 	border-collapse: collapse;
 	font-family: Arial;
+	width: 100%;
 }
 #nova{
 	padding-left: 10px;
@@ -62,6 +53,7 @@ button{
 	background-color: transparent;
 	border: none;
 	cursor: pointer;
+	height: 33px;
 }
 #botaomenu{
 	width: 33px;
@@ -69,15 +61,10 @@ button{
 	vertical-align: middle;
 	padding-top: 3px;
 	padding-bottom: 3px;
-
 }
 #tablepesquisa{
 	float: left; 
 	text-align: center;
-	width: 20%;
-}
-#tableemail{
-	width: 80%;
 }
 b{
 	margin-left: 5%;
@@ -97,4 +84,25 @@ a{
 .botao{
 	width: 100%;
 	text-align: left;
+}
+#favoritos{
+	background-color: #d6eaf8;
+}
+#caixaentrada{
+	background-color: #a3e4d7;
+}
+#lixo{
+	background-color: #d6eaf8;
+}
+#rascunho{
+	background-color: #a3e4d7;
+}
+#enviados{
+	background-color: #d6eaf8;
+}
+#excluidos{
+	background-color: #a3e4d7;
+}
+#morto{
+	background-color: #d6eaf8;
 }
