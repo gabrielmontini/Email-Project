@@ -18,6 +18,9 @@
 	border-top: solid 1px #f2f3f4;
 	border-bottom: solid 1px #f2f3f4;
 }
+#tableemail td:nth-child(n){
+	height: 20px;
+}
 input{
 	padding-left: 10px;
 	padding-right: 10px;
@@ -30,6 +33,7 @@ input{
 	width: 70%;
 }
 table{
+	size: 
 	border: none;
 	border-collapse: collapse;
 	font-family: Arial;
