@@ -27,6 +27,7 @@ function fLocalAbrirArquivo(){
 			for(var i = 0; i < retorno.length; i++){
 
 				html += "<tr>";
+				html += "<td>"+retorno[i]["recebido"]+"</td>";
 				html += "<td>"+retorno[i]["assunto"]+"</td>";
 				html += "<td>"+retorno[i]["mensagem"]+"</td>";
 				html += "</tr>";

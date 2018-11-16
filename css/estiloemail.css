@@ -14,12 +14,16 @@
 	width: 20%
 }
 #tableemail tr:nth-child(n){
+	height: 30px;
 	background-color: white;
 	border-top: solid 1px #f2f3f4;
 	border-bottom: solid 1px #f2f3f4;
 }
-#tableemail td:nth-child(n){
-	height: 20px;
+#tableemail td:nth-child(2){
+	white-space: nowrap;
+	max-width: 1ch;
+	overflow: hidden;
+	text-overflow: ellipsis;
 }
 input{
 	padding-left: 10px;
@@ -33,11 +37,11 @@ input{
 	width: 70%;
 }
 table{
-	size: 
 	border: none;
 	border-collapse: collapse;
 	font-family: Arial;
 	width: 100%;
+	vertical-align: top;
 }
 #nova{
 	padding-left: 10px;
