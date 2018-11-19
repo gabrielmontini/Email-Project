@@ -11,19 +11,25 @@
 	background-color: #f2f3f4;
 }
 #tablepesquisa td:first-child{
-	width: 20%
+	width: 20%;
 }
 #tableemail tr:nth-child(n){
-	height: 30px;
+	height: 25px;
 	background-color: white;
 	border-top: solid 1px #f2f3f4;
 	border-bottom: solid 1px #f2f3f4;
 }
-#tableemail td:nth-child(2){
+#tableemail td:nth-child(n){
 	white-space: nowrap;
-	max-width: 1ch;
+	max-width: 10ch;
 	overflow: hidden;
 	text-overflow: ellipsis;
+}
+#tableemail{
+	font-size: 0.8em;
+}
+#tableemail td:nth-child(3){
+	max-width: 20em;
 }
 input{
 	padding-left: 10px;
@@ -58,6 +64,7 @@ table{
 	background-color: #aed6f1;
 }
 button{
+	outline: none;
 	background-color: transparent;
 	border: none;
 	cursor: pointer;
@@ -96,21 +103,54 @@ a{
 #favoritos{
 	background-color: #d6eaf8;
 }
+#favoritos:hover{
+	background-color: #f2f3f4;
+}
 #caixaentrada{
 	background-color: #a3e4d7;
+}
+#caixaentrada:hover{
+	background-color: #f2f3f4;
 }
 #lixo{
 	background-color: #d6eaf8;
 }
+#lixo:hover{
+	background-color: #f2f3f4;
+}
 #rascunho{
 	background-color: #a3e4d7;
+}
+#rascunho:hover{
+	background-color: #f2f3f4;
 }
 #enviados{
 	background-color: #d6eaf8;
 }
+#enviados:hover{
+	background-color: #f2f3f4;
+}
 #excluidos{
 	background-color: #a3e4d7;
 }
+#excluidos:hover{
+	background-color: #f2f3f4;
+}
 #morto{
 	background-color: #d6eaf8;
+}
+#morto:hover{
+	background-color: #f2f3f4;
+}
+textarea{
+	border: none;
+	border-collapse: collapse;
+    box-sizing: border-box;
+    border-bottom: 1px solid #ccc;
+    border-top: 1px solid #ccc;
+    border-radius: 2px;
+    padding-top: 15px;
+    padding-left: 10px;
+    resize: none;
+    width: 100%;
 }

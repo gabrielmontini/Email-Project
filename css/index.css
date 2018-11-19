@@ -71,3 +71,7 @@ input{
 button:hover{
 	background-color: #007CBA;
 }
+button{
+	outline: none;
+	border: none;
+}

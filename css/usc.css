@@ -1,0 +1,19 @@
+body{
+	background-image: url("../imagens/usc.jpg");
+	background-position: top;
+	background-color: #cccccc;
+	background-repeat: no-repeat;
+	background-size: 100%, 100%;
+}
+a{
+	text-decoration: none;
+	color: black;
+}
+button{
+	margin-left: 5px;
+	outline: none;
+	background-color: transparent;
+	border: none;
+	cursor: pointer;
+	height: 33px;
+}

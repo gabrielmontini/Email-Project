@@ -1,10 +1,11 @@
 $(document).ready(function(){
 
 	$("#caixaentrada").click(function(){
+		fLocalAbrirArquivoEntrada();
 		window.location.href = "../paginas/caixaEntrada.html";
 	});
 	$("#enviados").click(function(){
-		fLocalAbrirArquivo();
+		fLocalAbrirArquivoEnviados();
 		return false;
 		window.location.href = "../paginas/itensEnviados.html";
 	});
@@ -14,7 +15,7 @@ $(document).ready(function(){
 	});
 });
 
-function fLocalAbrirArquivo(){
+function fLocalAbrirArquivoEnviados(){
 
 	$.ajax({
 		type: "POST",
@@ -28,6 +29,31 @@ function fLocalAbrirArquivo(){
 
 				html += "<tr>";
 				html += "<td>"+retorno[i]["para"]+"</td>";
+				html += "<td>"+retorno[i]["assunto"]+"</td>";
+				html += "<td>"+retorno[i]["mensagem"]+"</td>";
+				html += "</tr>";
+			}
+
+			$("#tableemail").html(html);
+
+		}
+	});
+}
+
+function fLocalAbrirArquivoEntrada(){
+
+	$.ajax({
+		type: "POST",
+		dataType: "json",
+		url: "../php/caixaEntrada.php",
+		success:function(retorno){
+
+			var html = "";
+
+			for(var i = 0; i < retorno.length; i++){
+
+				html += "<tr>";
+				html += "<td>"+retorno[i]["recebido"]+"</td>";
 				html += "<td>"+retorno[i]["assunto"]+"</td>";
 				html += "<td>"+retorno[i]["mensagem"]+"</td>";
 				html += "</tr>";

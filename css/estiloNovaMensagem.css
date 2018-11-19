@@ -1,32 +1,21 @@
-#tablepesquisa tr:nth-child(2n+1){
-	background-color: #d6eaf8;
-	height: 25px;
-}
-#tablepesquisa tr:nth-child(2n){
-	background-color: #a3e4d7;
-	height: 25px;
-}
 #tablepesquisa tr:nth-child(2){
 	background-color: #f2f3f4;
 	height: 40px;
-
 }
 #tablepesquisa tr:first-child{
 	background-color: #5dade2;
 	height: 40px;
-
 }
-#tablepesquisa tr:nth-child(10){
+#tablepesquisa tr:nth-child(4){
 	height: 320px;
 	background-color: #f2f3f4;
 }
-tr:nth-child(2){
-	background-color: #f2f3f4;
-	height: 40px;
+#tablepesquisa td:first-child{
+	width: 20%;
 }
-tr:first-child{
-	background-color: #5dade2;
-	height: 40px;
+#tableemail tr:nth-child(n){
+	height: 25px;
+	background-color: white;
 }
 input{
 	padding-left: 10px;
@@ -43,6 +32,8 @@ table{
 	border: none;
 	border-collapse: collapse;
 	font-family: Arial;
+	width: 100%;
+	vertical-align: top;
 }
 #nova{
 	padding-left: 10px;
@@ -59,9 +50,11 @@ table{
 	background-color: #aed6f1;
 }
 button{
+	outline: none;
 	background-color: transparent;
 	border: none;
 	cursor: pointer;
+	height: 33px;
 }
 #botaomenu{
 	width: 33px;
@@ -69,21 +62,10 @@ button{
 	vertical-align: middle;
 	padding-top: 3px;
 	padding-bottom: 3px;
-
-}
-#botaoEnviar{
-	background-color: #aed6f1;
-	height: 40px;
-	width: 70px;
-	border-radius: 3px;
 }
 #tablepesquisa{
 	float: left; 
 	text-align: center;
-	width: 20%;
-}
-#tableemail{
-	width: 80%;
 }
 b{
 	margin-left: 5%;
@@ -91,6 +73,12 @@ b{
 a{
 	text-decoration: none;
 	color: black;
+}
+#botaoEnviar{
+	background-color: #aed6f1;
+	height: 40px;
+	width: 70px;
+	border-radius: 3px;
 }
 .imgbotao{
 	vertical-align: middle;
@@ -103,6 +91,48 @@ a{
 .botao{
 	width: 100%;
 	text-align: left;
+}
+#favoritos{
+	background-color: #d6eaf8;
+}
+#favoritos:hover{
+	background-color: #f2f3f4;
+}
+#caixaentrada{
+	background-color: #a3e4d7;
+}
+#caixaentrada:hover{
+	background-color: #f2f3f4;
+}
+#lixo{
+	background-color: #d6eaf8;
+}
+#lixo:hover{
+	background-color: #f2f3f4;
+}
+#rascunho{
+	background-color: #a3e4d7;
+}
+#rascunho:hover{
+	background-color: #f2f3f4;
+}
+#enviados{
+	background-color: #d6eaf8;
+}
+#enviados:hover{
+	background-color: #f2f3f4;
+}
+#excluidos{
+	background-color: #a3e4d7;
+}
+#excluidos:hover{
+	background-color: #f2f3f4;
+}
+#morto{
+	background-color: #d6eaf8;
+}
+#morto:hover{
+	background-color: #f2f3f4;
 }
 textarea{
 	border: none;
